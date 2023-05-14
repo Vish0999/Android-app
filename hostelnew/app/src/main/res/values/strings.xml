@@ -1,0 +1,155 @@
+<resources>
+
+    <string name="app_name">hostel app</string>
+    <string name="Services1">
+        Various Services of Hostel are:-
+    </string>
+    <string name="services2">
+        Meals Services:-
+              Morning  =Breakfast
+              Afternoon=Lunch
+              Night    =Dinner
+    </string>
+    <string name="services3">
+        Other Services:-
+              Cold/Hot Water
+              Filter Water
+              Room clean every day
+              lifts
+              Gaming Zone
+    </string>
+    <string name="services4">
+        Bus Service
+               Hostel-College
+               College-Hostel Bus schedule will be send on hostel offical whatsapp group every day
+    </string>
+
+
+    <string name="contact">
+        If You have any query then Call on Number
+        given below
+
+        9067569965
+
+
+    </string>
+    <string name="otherwise">
+        Otherwise message or Contact on Following
+        Social Media
+    </string>
+    <string name="single">
+        This room contain only one student.
+        1 year fee is Rs.2,10,000
+    </string>
+    <string name="doubl">
+        This room contain only Two student.
+        1 year fee is Rs.1,80,000
+    </string>
+    <string name="Triple">
+        This room contain only Three student.
+        1 year fee is Rs.1,60,000
+    </string>
+    <string name="informationn">
+        The students get an option to choose between a twin sharing room and a triple sharing room.
+        The rooms have unlimited high speed WiFI and house-keeping facilities. To ensure the safety of our students, the hostels have full-time wardens, CCTV monitoring and biometric enabled entrances.
+        The hostels have an inbuilt gym, gaming area, hangout zones  reading rooms. The University also provides transport facilities to its students residing in its hostels.
+The hostel kitchens serve healthy, delicious, and hygeinic food. The hostels administration also organizes celebrations of various festivals like Diwali, Holi, Eid, Dandia, Lohri etc.
+    </string>
+    <string name="bottom">
+        More Information Visit On
+        following Social PlatForm
+    </string>
+    <string-array name="days">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+    <string-array name="ten">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+
+    </string-array>
+
+
+    <string name="meal1">
+        monday
+        morning breakfast =bred,pohe,
+                          chai, coffee
+        night Dinner = dal chaval,
+                     masala bhendi,chapati
+        Tuesday
+        morning breakfast =misal,bred,
+                          chai, coffee
+        night Dinner = dal chaval,masala
+                      bhendi,chapati
+        Wednesday
+        morning breakfast =bred,pohe,
+                         chai, coffee
+        night Dinner = dal chaval,masala
+                       bhendi,chapati
+        Thursday
+        morning breakfast =Edli sambar,sandwich,
+                        chai, coffee
+        night Dinner = dal chaval,masala
+                       bhendi,chapati
+        Friday
+        morning breakfast =bred,pohe,
+                         chai, coffee
+        night Dinner = dal chaval,masala
+                     bhendi,chapati
+        Saturday
+        morning breakfast =bred,pohe,
+                        chai, coffee
+        night Dinner = dal chaval,masala
+                      bhendi,chapati
+        Sunday
+        morning breakfast =bred,parathe,
+                       chai, coffee
+        night Dinner = dal chaval,masala
+                        bhendi,chapati
+
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

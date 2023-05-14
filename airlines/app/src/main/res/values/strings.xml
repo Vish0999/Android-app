@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">airlines</string>
+
+    <string name="info2">
+        Terminal Capacity
+        Arrival      	                   Departure
+         125	                           125
+    </string>
+
+
+    <string name="info3">
+           Runway
+        Orientation  Dimension    Strength of Pavement
+                                                           - LCN/PCN
+         06/24	     1988M X 45M	     PCN-48/R/C/X/U
+    </string>
+
+
+    <string name="info4">
+        Social Links: 
+        @aaijbpairport
+        Airport Contact Information:
+        Name:
+        Kusum Das,Airport Director
+        Address:
+        Jabalpur Madhya Pradesh-482005
+        Email:
+        apd_vajb@aai.aero
+        Telephone:
+        91-761-2601341
+    </string>
+
+    <string name="info5">
+        Airport Contact Type:
+Airport Address
+Name:
+
+ATC Incharge
+Address:
+Jabalpur Madhya Pradesh-482005
+Email:
+vajb.ats@aai.aero
+Telephone:
+91-761-2603452 (Only for Operational/Departmental Enquires)
+    </string>
+    <string name="info6">
+       Airport Contact Type:
+Airport Address
+Name:
+Regional Executive Director
+Address:
+ New Airport Colony Opposite Hanuman Road Vile Parle East Mumbai-400099
+Email:
+redwr@aai.aero
+Telephone:
+91-22-28300606
+Fax:
+91-22-28300606
+    </string>
+
+
+    <string name="ser">
+        Type of facility: Free Trolley facilities for passengers
+        Terminal : INTEGRATED
+        Area :  Inside ARRIVAL,Outside Departure,
+        SERVICES OFFERED :Free Trolley facilities for passengers
+        CONTACT DETAILS:9425057716
+    </string>
+
+    <string name="oth">
+        Meal Service
+        Sitting Chairs
+        WiFI
+        mobile charging
+        Rest Rooms
+        Parking
+        Bag Stores
+        ATM
+    </string>
+    
+    <string name="cont">
+        Remark/contact  :
+        Air India :- 9826680080, 
+        Vistara:- 9289228888, 
+        Indigo:- 8878645553
+        Trujet:- 0731-2623130
+        AirAsia:- 9705576590
+        Star Air:- 0731-2620622
+        Go Air :- 7304995848
+        Fly Big :- 8225962437
+    </string>
+</resources>
+
+

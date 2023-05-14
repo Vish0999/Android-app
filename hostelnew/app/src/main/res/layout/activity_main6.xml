@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="@drawable/bb09">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="139dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="136dp"
+        android:background="@color/black"
+        android:text="SERVICES"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/meal"
+        android:layout_width="181dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+
+
+        android:layout_marginEnd="167dp"
+
+
+        android:background="@color/white"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="MEAL SERVICES:-"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="181dp"
+        android:layout_height="41dp"
+
+
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="155dp"
+        android:background="@color/white"
+        android:ellipsize="marquee"
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="OTHER SERVICES:-"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/second2" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="181dp"
+        android:layout_height="44dp"
+
+
+        android:layout_marginTop="2dp"
+
+
+        android:layout_marginEnd="256dp"
+        android:background="@color/white"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+
+        android:padding="8dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="BUS SERVICES:-"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <ImageView
+        android:id="@+id/soundimg"
+        android:layout_width="60dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/videoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="135dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="38dp"
+        app:layout_constraintStart_toEndOf="@+id/meal"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/baseline_fastfood_24" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+
+        android:ellipsize="marquee"
+
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+
+
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+
+        android:text="@string/meal1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="208dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:srcCompat="@drawable/baseline_directions_bus_24" />
+
+    <TextView
+        android:id="@+id/second2"
+        android:layout_width="408dp"
+        android:layout_height="38dp"
+
+
+        android:layout_marginEnd="3dp"
+        android:background="@color/black"
+
+
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+
+
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/services4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+
+
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+
+
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/services3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="137dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/second2"
+        app:srcCompat="@drawable/baseline_water_drop_24" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="420dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soundimg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

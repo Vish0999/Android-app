@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vvv1"
+    android:clipToPadding="true"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="269dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_payments_24" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="first name"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="surname"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/firstname"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <EditText
+        android:id="@+id/emails"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstname" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="170dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="13dp"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="10dp"
+        android:text="Date of Birth"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emails" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="115dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="55dp"
+        android:drawableLeft="@drawable/baseline_transgender_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="0dp"
+        android:text="Gender"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/emails" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="DD/MM/YY"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="55dp"
+        android:background="@color/black"
+        android:contentDescription="choose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:text="Card Details"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <EditText
+        android:id="@+id/cdno"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/baseline_confirmation_number_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Card Number"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="10dp"
+        android:text="Card Expiry Date"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdno" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/black"
+        android:contentDescription="month"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/cdno" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="38dp"
+        android:background="@color/black"
+        android:contentDescription="year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdno" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/button_text_color"
+        android:text="PAY"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/ccdno"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="confirm no"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/cdno"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
